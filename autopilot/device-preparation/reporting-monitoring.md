@@ -62,7 +62,7 @@ To access Windows Autopilot device preparation reports and monitor deployments i
 
       - **Installed** - application was successfully installed.
       - **In progress** - application is currently being installed.
-      - **Skipped** - usually indicates that the application was selected in the Windows Autopilot device preparation policy, but wasn't assigned to the device group specified in the Windows Autopilot device preparation policy. It can also mean that the application isn't applicable to the device.
+      - **Skipped** - usually indicates that the application was selected in the Windows Autopilot device preparation policy, but wasn't assigned to the device group specified in the Windows Autopilot device preparation policy. It can also mean that the application isn't applicable to the device. See known issue: https://techcommunity.microsoft.com/blog/intunecustomersuccess/known-issue-windows-autopilot-device-preparation-with-win32-apps-and-managed-ins/4273286
       - **Failed** - the application failed to install. Check logs for further details.
 
    1. **Scripts** - contains information regarding the PowerShell scripts being run during the Windows Autopilot device preparation including the list of scripts being run. Statuses include:
